@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wilko\\Desktop\\Wilkor\\dotnet\\newprojet\\newprojet.csproj": {}
+    "C:\\Users\\wilko\\Desktop\\Wilkor\\dotnet\\apiDotNet\\newprojet\\newprojet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wilko\\Desktop\\Wilkor\\dotnet\\newprojet\\newprojet.csproj": {
+    "C:\\Users\\wilko\\Desktop\\Wilkor\\dotnet\\apiDotNet\\newprojet\\newprojet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wilko\\Desktop\\Wilkor\\dotnet\\newprojet\\newprojet.csproj",
+        "projectUniqueName": "C:\\Users\\wilko\\Desktop\\Wilkor\\dotnet\\apiDotNet\\newprojet\\newprojet.csproj",
         "projectName": "newprojet",
-        "projectPath": "C:\\Users\\wilko\\Desktop\\Wilkor\\dotnet\\newprojet\\newprojet.csproj",
+        "projectPath": "C:\\Users\\wilko\\Desktop\\Wilkor\\dotnet\\apiDotNet\\newprojet\\newprojet.csproj",
         "packagesPath": "C:\\Users\\wilko\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wilko\\Desktop\\Wilkor\\dotnet\\newprojet\\obj\\",
+        "outputPath": "C:\\Users\\wilko\\Desktop\\Wilkor\\dotnet\\apiDotNet\\newprojet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wilko\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -36,6 +36,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[3.1.5, )"
